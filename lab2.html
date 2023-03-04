@@ -52,6 +52,21 @@
             color: #CF9FFF;
             text-decoration: underline;
         }
+        table {
+            font-family: Optima, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #E3E4FA;
+        }
     </style>
 </head>
 <body style="background-color: whitesmoke;">
@@ -70,28 +85,35 @@
     <li>Кредитування і фінансовий лізинг на BMW</li>
     <li>Cпеціальні пропозиції на автомобілі BMW</li>
 </ul>
-    <table>
-      <thead>
-        <tr>
-          <th colspan="2">Автосалон BMW</th>
-        </tr>
-      </thead>
-      <tbody>
-         <tr>
-          <td>Адреса:</td>
-        </tr>
-        <tr>
-          <td>вул. Київська, 2</td>
-        </tr>
-        <tr>
-          <td>Години роботи:</td>
-          <td>Пропонуємо:</td>
-        </tr>
-        <tr>
-          <td>Пн-Пт: 9:00-20:00<br>Сб-Нд: 10:00-18:00</td>
-          <td>Тест-драйв<br>Сервісне обсуговування<br>Прайс-лист<br>Спеціальні пропозиції</td>
-        </tr>
-      </tbody>
-    </table>
-  </body>
+<table>
+    <tr>
+        <th>Модель</th>
+        <th>Прайс-лист</th>
+    </tr>
+    <tr>
+        <td>BMW 3 Series</td>
+        <td>$47,800</td>
+    </tr>
+    <tr>
+        <td>BMW X5</td>
+        <td>$82,800</td>
+    </tr>
+    <tr>
+        <td>BMW Z4</td>
+        <td>$49,900</td>
+    </tr>
+    <tr>
+        <td>BMW i Series (iX, i3, i8)</td>
+        <td>$83,200</td>
+    </tr>
+    <tr>
+        <td>BMW M3</td>
+        <td>$82,800</td>
+    </tr>
+    <tr>
+        <td>BMW 7 Series / 8 Series</td>
+        <td>$87,900</td>
+    </tr>
+</table>
+</body>
 </html>
