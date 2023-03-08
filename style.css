@@ -1,0 +1,120 @@
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-family: URW Chancery L, cursive;
+    color: #4B0150;
+}
+h2 {
+    font-size: 24px;
+    font-family: Georgia, serif;
+    color: #4B0150;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    font-family: 'Times New Roman', cursive;
+}
+strong {
+    font-weight: bold;
+}
+em {
+    font-style: italic;
+}
+.u {
+    text-decoration: underline;
+}
+.strike {
+    text-decoration: line-through;
+}
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+img {
+    float: left;
+    margin-right: 20px;
+    border: 1px solid #CF9FFF;
+    padding: 2px;
+}
+a {
+    color: #CF9FFF;
+    text-decoration: none;
+}
+a:hover {
+    color: #CF9FFF;
+    text-decoration: underline;
+}
+table {
+    font-family: Optima, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #E3E4FA;
+}
+ul {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    font-family: 'Times New Roman', cursive;
+}
+
+
+.ul_about {
+    list-style: none;
+    margin-left: auto;
+    margin-right: 40px;
+}
+.item-about {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: calc(22/18);
+    text-transform: uppercase;
+
+
+}
+.btn-list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.btn {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(30 / 16);
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    background-color: #CF9FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-top: 60px;
+    border: none;
+    padding: 15px 40px;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn:hover {
+    background-color: #4B0150;
+}
+
+.fgh {
+    text-align: center;
+}
