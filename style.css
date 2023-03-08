@@ -4,61 +4,49 @@ h1 {
     font-family: URW Chancery L, cursive;
     color: #4B0150;
 }
-
 h2 {
     font-size: 24px;
     font-family: Georgia, serif;
     color: #4B0150;
 }
-
 p {
     font-size: 16px;
     line-height: 1.5;
     text-align: justify;
     font-family: 'Times New Roman', cursive;
 }
-
 strong {
     font-weight: bold;
 }
-
 em {
     font-style: italic;
 }
-
 .u {
     text-decoration: underline;
 }
-
 .strike {
     text-decoration: line-through;
 }
-
 .center {
     text-align: center;
 }
-
 .right {
     text-align: right;
 }
-
 img {
     float: left;
     margin-right: 20px;
     border: 1px solid #CF9FFF;
     padding: 2px;
 }
-
 a {
     color: #CF9FFF;
     text-decoration: none;
 }
-
 a:hover {
     color: #CF9FFF;
     text-decoration: underline;
 }
-
 table {
     font-family: Optima, sans-serif;
     border-collapse: collapse;
@@ -74,7 +62,6 @@ td, th {
 tr:nth-child(even) {
     background-color: #E3E4FA;
 }
-
 ul {
     font-size: 20px;
     line-height: 1.5;
@@ -88,62 +75,44 @@ ul {
     margin-left: auto;
     margin-right: 40px;
 }
-
 .item-about {
 
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
-    letter-spacing: calc(22 / 18);
+    letter-spacing: calc(22/18);
     text-transform: uppercase;
 
 
 }
-
-.btn {
-    align-items: center;
-    appearance: none;
-    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
-    border: 0;
-    border-radius: 6px;
-    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
-    box-sizing: border-box;
-    color: #fff;
-    cursor: pointer;
-    display: inline-flex;
-    font-family: "JetBrains Mono", monospace;
-    height: 48px;
-    justify-content: center;
-    line-height: 1;
+.btn-list {
+    display: flex;
     list-style: none;
-    overflow: hidden;
-    padding-left: 16px;
-    padding-right: 16px;
-    position: relative;
-    text-align: left;
-    text-decoration: none;
-    transition: box-shadow .15s, transform .15s;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    white-space: nowrap;
-    will-change: box-shadow, transform;
-    font-size: 18px;
+    gap: 20px;
 }
-
-.btn:focus {
-    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+.btn {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(30 / 16);
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    background-color: #CF9FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-top: 60px;
+    border: none;
+    padding: 15px 40px;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn:hover {
-    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
-    transform: translateY(-2px);
-}
-
-.btn:active {
-    box-shadow: #3c4fe0 0 3px 7px inset;
-    transform: translateY(2px);
+    background-color: #4B0150;
 }
 
 .fgh {
